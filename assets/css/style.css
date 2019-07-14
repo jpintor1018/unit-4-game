@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    background:url(../images/SWBackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container{
+    width:100% auto;
+}
+
+.top-section{
+    margin:0 auto;
+    width:100%;
+}
+
+.logo{
+    width:400px;
+    margin:0 auto;
+    
+}
+/* ------------------------------------------------------ */
+p{
+    color:white;
+    font-size: 35px;
+}
+
+.row{
+    margin: 0 auto;
+    }
+#name{
+    text-align: center;
+    color:gold;
+    font-size: 25px; 
+
+}
+
+/* -------------------------------------------------- */
+
+.img-thumbnail{
+    width:80%;
+    height:65%;
+    object-fit: contain;
+    background:url(../images/warp.jpg);
+    background-size: cover;
+    float: left;
+    
+}
+
+
+
+

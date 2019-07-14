@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StarWars</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div id="L-Section" class= "col-md-12">
+                <img src="assets/images/SWLogo.png" class="logo">
+            </div>
+        </div>
+        <br>
+        <p>Choose Your Character:</p>
+        <!-- CREATING ROW TO CHOOSE CHARACTER -->
+        <div class="row">
+               
+            <div id="top-section" class="col-md-3">
+                    <p id="name" class="nameYo">Yoda</p>
+                    <img id="Yoda" src="assets/images/yoda.png" alt="..." class="img-thumbnail">
+                    <p class="yodaHP"></p>
+            </div>
+            <div id="top-section" class="col-md-3">
+                    <p id="name" class="nameHan">Han Solo</p>
+                    <img id=" Han" src="assets/images/han-solo.png" alt="..." class="img-thumbnail">
+                    <p class="SoloHP"></p>
+            </div>
+            <div id="top-section" class="col-md-3">
+                    <p id="name" class="nameChew">Chewbacca</p>
+                    <img id="Chewie" src="assets/images/chewy.png" alt="..." class="img-thumbnail">
+                    <p class="chewHP"></p>
+            </div>
+            <div id="top-section" class="col-md-3">
+                    <p id="name" class="nameObi">Obi-Wan</p>
+                    <img id= "Obi" src="assets/images/obi-wan.png" alt="..." class="img-thumbnail">
+                    <p class="obiHP"></p>
+            </div>
+        </div>
+        <!-- CHOOSEN CHARACTER -->
+
+        <div class="row">
+            <div class="col-md-12">
+                
+            </div>
+        </div>
+
+        <br>
+        <!-- ROW TO CHOOSE AN ENEMY TO ATTACK -->
+        <p>Choose an Enemy to Attack</p>
+        <div class= "row">
+            <div id="mid-section" class="col-md-3">
+                <p id="name" class="nameMau">Darth Maul</p>
+                <img id= "Maul" src="assets/images/Maul.png" alt="..." class="img-thumbnail">
+            </div>
+            <div id="mid-section" class="col-md-3">
+                <p id="name" class="nameVad">Darth Vader</p>
+                <img id= "Vader" src="assets/images/vader.png" alt="..." class="img-thumbnail">
+            </div>
+            <div id="mid-section" class="col-md-3">
+                <p id="name" class="namePal">General Palpatine</p>
+                <img id="Palpatine" src="assets/images/palpatine.png" alt="..." class="img-thumbnail">
+            </div>
+            <div id="mid-section" class="col-md-3">
+                <p id="name" class="nameGri">General Grievous</p>
+                <img id="Grievous" src="assets/images/grievous.png" alt="..." class="img-thumbnail">
+            </div>
+        </div>
+        
+        <!-- FIGHTING SECTION -->
+        <p>Let The Fighting Commence</p>
+        <div class="row">
+                <button class="FButton">Fight</button>
+        </div>
+
+        <div class="row">
+            <div class="defend">
+                <p class="Defense">Defender</p>
+            </div>
+        </div>
+
+
+    </div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
